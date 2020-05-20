@@ -5,6 +5,8 @@ import Layout from "../components/layout";
 // import Image from "../components/image";
 import Seo from "../components/seo";
 
+import { lightBlue } from "../components/styles";
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
@@ -12,7 +14,7 @@ const IndexPage = () => (
       className="text-center"
       style={{
         fontSize: 54,
-        textDecorationColor: "deepskyblue",
+        textDecorationColor: lightBlue,
         textDecorationLine: "underline"
       }}
     >

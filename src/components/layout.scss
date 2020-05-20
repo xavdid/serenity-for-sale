@@ -3,3 +3,12 @@ $theme-colors: (
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+.faqs {
+  blockquote {
+    border-left: 4px solid lightgrey;
+    padding-left: 7px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+}

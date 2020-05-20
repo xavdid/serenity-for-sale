@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 
+import { lightBlue, michiganBlue } from "./styles";
+
 const Logo = () => {
   const data = useStaticQuery(graphql`
     {
@@ -74,10 +76,11 @@ const Navbar = ({ siteTitle }) => {
     <div
       className="row justify-content-center"
       style={{
-        backgroundColor: "deepskyblue",
-        borderBottom: "1px solid #00274C"
+        backgroundColor: lightBlue,
+        borderBottom: `1px solid ${michiganBlue}`
       }}
     >
+      {/* there's probably a better way to do this but it works ¯\_(ツ)_/¯ */}
       <div className="navbar">
         <DesktopNavButtonsRow />
       </div>
