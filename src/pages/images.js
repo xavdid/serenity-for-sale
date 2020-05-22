@@ -5,6 +5,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 const Image = path => {
   const data = useStaticQuery(graphql`
     query {
@@ -25,7 +28,18 @@ const Image = path => {
   `);
 
   return (
-    <Layout>
+    <Layout title="Photo Tour">
+      <p>
+        For more, including great descriptions, check out our Instagram:{" "}
+        <a
+          href="https://instagram.com/serenitythevan"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faInstagram} /> @serenitythevan
+        </a>
+      </p>
+
       {data.allFile.edges.map(image => (
         <Img
           key={image.node.base}

@@ -8,13 +8,36 @@
 import React from "react";
 
 import Navbar from "./navbar";
+import Header from "./header";
+import Seo from "./seo";
+
 import "./layout.scss";
 
-const Layout = ({ children }) => {
+const Layout = ({
+  children,
+  title = "Title Goes Here",
+  subtitle,
+  centered
+}) => {
   return (
     <>
+      <Seo title={title} />
       <Navbar />
-      <div className="container mx-auto mw-50 p-3">{children}</div>
+      <div className="container mx-auto p-3" style={{ maxWidth: "700px" }}>
+        <div
+          style={{
+            paddingBottom: "40px"
+          }}
+        >
+          <Header centered={centered}>{title}</Header>
+          {subtitle ? (
+            <Header centered={centered} big={false}>
+              {subtitle}
+            </Header>
+          ) : null}
+        </div>
+        {children}
+      </div>
     </>
   );
 };

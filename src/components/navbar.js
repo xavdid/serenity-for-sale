@@ -15,7 +15,11 @@ const Logo = () => {
       }
     }
   `);
-  return <img src={data.file.childImageSharp.fixed.src} />;
+  return (
+    <Link to="/">
+      <img src={data.file.childImageSharp.fixed.src} />
+    </Link>
+  );
 };
 
 const NavButton = ({ to, label, classes = [] }) => (

@@ -1,9 +1,7 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
-// import Image from "../components/image";
-import Seo from "../components/seo";
-import { useStaticQuery, graphql } from "gatsby";
 
 const FaqPage = () => {
   const data = useStaticQuery(graphql`
@@ -20,8 +18,14 @@ const FaqPage = () => {
     }
   `);
   return (
-    <Layout>
-      <Seo title="FAQ" />
+    <Layout title="FAQs">
+      {/* <div
+        className="toc"
+        dangerouslySetInnerHTML={{
+          __html: data.markdownRemark.tableOfContents
+        }}
+      /> */}
+
       <div
         className="faqs"
         dangerouslySetInnerHTML={{
