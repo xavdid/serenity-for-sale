@@ -7,6 +7,13 @@ import Layout from "../components/layout";
 import Speclist from "../components/speclist";
 import Button from "../components/button";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faImages,
+  faEnvelope,
+  faQuestionCircle
+} from "@fortawesome/free-solid-svg-icons";
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     {
@@ -43,7 +50,9 @@ const IndexPage = () => {
       </Carousel>
 
       <div className="text-center" style={{ paddingBottom: "28px" }}>
-        <Button to="/images">More Photos</Button>
+        <Button to="/images">
+          <FontAwesomeIcon icon={faImages} /> More Photos
+        </Button>
       </div>
 
       <div className="row" style={{ paddingBottom: "20px" }}>
@@ -88,8 +97,13 @@ const IndexPage = () => {
           />
         </div>
       </div>
-      <div className="text-center">
-        <Button to="/contact">Get in Touch</Button>
+      <div className="d-flex justify-content-around">
+        <Button to="/faq">
+          <FontAwesomeIcon icon={faQuestionCircle} /> Read the FAQs
+        </Button>
+        <Button to="/contact">
+          <FontAwesomeIcon icon={faEnvelope} /> Get in Touch
+        </Button>
       </div>
     </Layout>
   );

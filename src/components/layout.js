@@ -23,7 +23,7 @@ const Layout = ({
     <>
       <Seo title={title} />
       <Navbar />
-      <div className="container mx-auto p-3" style={{ maxWidth: "700px" }}>
+      <div className="container mx-auto p-3" style={{ maxWidth: "800px" }}>
         <div
           style={{
             paddingBottom: "40px"
