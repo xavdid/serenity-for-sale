@@ -25,11 +25,16 @@ const Logo = () => {
 const NavButton = ({ to, label, classes = [] }) => (
   <Link
     partiallyActive
-    getProps={({ isCurrent }) => {
+    getProps={({ href, location: { pathname } }) => {
       const bootstrapButtonClass = "warning";
+      const pathWithoutTrailingSlash = pathname.endsWith("/")
+        ? pathname.slice(0, -1)
+        : pathname;
+
       return {
         className: [
-          isCurrent
+          href === pathWithoutTrailingSlash ||
+          (href === "/" && pathWithoutTrailingSlash === "")
             ? `btn-${bootstrapButtonClass}`
             : `btn-outline-${bootstrapButtonClass}`,
           ...["btn", ...classes]

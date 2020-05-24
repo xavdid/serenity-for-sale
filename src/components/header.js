@@ -3,7 +3,6 @@ import { lightBlue } from "./styles";
 
 export default ({ children, big = true, centered }) => {
   const CustomTag = `h${big ? 1 : 2}`;
-  console.log("centered is", centered);
   return (
     <CustomTag
       className={centered ? "text-center" : ""}

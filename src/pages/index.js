@@ -97,11 +97,11 @@ const IndexPage = () => {
           />
         </div>
       </div>
-      <div className="d-flex justify-content-around">
-        <Button to="/faq">
+      <div className="d-flex justify-content-around flex-wrap">
+        <Button to="/faq" style={{ marginBottom: "20px" }}>
           <FontAwesomeIcon icon={faQuestionCircle} /> Read the FAQs
         </Button>
-        <Button to="/contact">
+        <Button to="/contact" style={{ height: "fit-content" }}>
           <FontAwesomeIcon icon={faEnvelope} /> Get in Touch
         </Button>
       </div>
