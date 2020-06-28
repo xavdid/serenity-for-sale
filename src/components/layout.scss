@@ -20,4 +20,9 @@ $theme-colors: (
   p {
     margin: 1rem 0;
   }
+
+  .gatsby-resp-image-wrapper {
+    margin: 20px 0;
+    border: 1px solid black;
+  }
 }

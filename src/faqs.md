@@ -205,6 +205,9 @@ The table (room enough for 2-4 people, laptops etc.) sits on an easy to use [Spr
 
 Is it comfy? Quite! The cushions are firm and we do suggest using a mattress protector/softer foam on top + bed sheets. We're pretty picky about mattresses and we found the bed extremely comfy.
 
+![](./images/faqs/bed.jpg)
+![](./images/faqs/table.jpg)
+
 ---
 
 #### How much water does the van hold?
@@ -217,6 +220,8 @@ The van contains two 7 gallon water containers:
 The water is pumped through the pipes to the sink by an Shurflo electric pump and accumulator.
 
 And don't worry - the sink itself is big enough to wash your pots and pans!
+
+![](./images/faqs/sink.jpg)
 
 ---
 

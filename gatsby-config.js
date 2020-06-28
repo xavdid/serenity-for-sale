@@ -27,7 +27,18 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         footnotes: false,
-        plugins: [`gatsby-remark-autolink-headers`]
+        plugins: [
+          `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // maxWidth: 800
+              linkImagesToOriginal: false,
+              showCaptions: true
+              // markdownCaptions: true,
+            }
+          }
+        ]
       }
     },
     `gatsby-plugin-catch-links`
