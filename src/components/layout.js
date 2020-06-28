@@ -26,7 +26,7 @@ const Layout = ({
       <div className="container mx-auto p-3" style={{ maxWidth: "800px" }}>
         <div
           style={{
-            paddingBottom: "40px"
+            paddingBottom: "30px"
           }}
         >
           <Header centered={centered}>{title}</Header>

@@ -41,6 +41,9 @@ const IndexPage = () => {
       subtitle="A Luxurious Camper Van | $64,500"
       centered
     >
+      <h3 style={{ textAlign: "center", paddingBottom: "20px" }}>
+        Status: <span style={{ color: "green" }}>For Sale</span>
+      </h3>
       <Carousel style={{ marginBottom: "40px" }}>
         {data.allFile.edges.map(pic => (
           <Carousel.Item key={pic.node.id}>
@@ -90,6 +93,7 @@ const IndexPage = () => {
               "High Roof",
               "Gasoline engine, 3.6L",
               "Front-wheel drive",
+              "600W of solar panels on the roof",
               "Backup camera",
               "Extended 60mo/60k warranty (good through XX/YY)",
               "Power mirrors"
