@@ -4,12 +4,45 @@ $theme-colors: (
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+@mixin links {
+  a {
+    color: deepskyblue;
+    &:visited {
+      color: deepskyblue;
+    }
+  }
+}
+
+ul {
+  p {
+    margin: 0;
+  }
+}
+
+.toc {
+  @include links();
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
 .faqs {
+  @include links();
   blockquote {
     border-left: 4px solid lightgrey;
     padding-left: 7px;
     font-style: italic;
     margin-top: 20px;
+  }
+
+  h2 {
+    text-decoration-color: deepskyblue;
+    text-decoration-line: underline;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 
   h2,

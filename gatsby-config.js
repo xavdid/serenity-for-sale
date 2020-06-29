@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Serenity for Sale`,
-    description: ``,
-    author: `@xavdod`
+    description: `We're selling our beloved van, Serenity. Come check it out!`,
+    author: `@xavdid`
   },
   plugins: [
     `gatsby-plugin-sass`,

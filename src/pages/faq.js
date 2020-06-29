@@ -19,12 +19,13 @@ const FaqPage = () => {
   `);
   return (
     <Layout title="FAQs">
-      {/* <div
+      <div
         className="toc"
+        id="toc"
         dangerouslySetInnerHTML={{
           __html: data.markdownRemark.tableOfContents
         }}
-      /> */}
+      />
 
       <div
         className="faqs"

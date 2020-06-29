@@ -9,6 +9,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import favicon from "../images/favicon.ico";
+import ogImg from "../images/carousel/car-1.jpeg";
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -66,9 +68,15 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          name: "og:img",
+          content: ogImg
         }
       ].concat(meta)}
-    />
+    >
+      <link rel="icon" href={favicon} />
+    </Helmet>
   );
 }
 
