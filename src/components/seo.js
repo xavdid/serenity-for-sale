@@ -70,8 +70,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription
         },
         {
-          name: "og:img",
+          name: "og:image",
           content: ogImg
+        },
+        {
+          name: "og:url",
+          content: "https://serenity.forsale/"
         }
       ].concat(meta)}
     >

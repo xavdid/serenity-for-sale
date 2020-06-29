@@ -81,8 +81,10 @@ const ImagesPage = path => {
 
       <div className="d-flex flex-wrap justify-content-around">
         {data.allFile.edges.map((image, index) => {
+          // 2 - the front of the van.jpeg
           const caption = image.node.base.split(".")[0].split("-")[1].trim();
           return (
+            // have a special break picture to show old vs new
             <div
               key={image.node.base}
               style={{ width: "235px" }}
