@@ -1,5 +1,11 @@
 ## Basics
 
+### Why is now a great time to buy a van?
+
+Given the current state of the world, RVs and vans are one of the only real responsible ways to travel! With your bathroom, kitchen, and sleeping facilities all self-contained, Serenity would be perfect for risk-free weekend or week-long trips out to the woods (or the beach or the desert or... you get the picture).
+
+---
+
 ### Is it comfortable?
 
 The two of us have found this van to be a comfortable full-time home for months on end. We lived in it as our sole residence for about 6 months, and could easily have kept going! For anyone who can rock a capsule wardrobe, doesn’t mind cuddling at night, and loves a new view, this is a great way to live and a great way to travel.
