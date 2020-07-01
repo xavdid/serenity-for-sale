@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
+import TourVideo from "../components/tourVideo";
 import Img from "gatsby-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -46,6 +47,9 @@ const ImagesPage = path => {
     }
   `);
 
+  // could verify that data.length === orderedImages.filter(!skip)
+  // skipping is probably bad though, would through off other counts
+
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
@@ -66,7 +70,7 @@ const ImagesPage = path => {
   const prevIndex = () => (lightboxIndex + numImages - 1) % numImages;
 
   return (
-    <Layout title="Photo Tour" centered>
+    <Layout title="Tours" centered>
       {lightboxIsOpen && (
         <Lightbox
           mainSrc={imageByFilename[orderedImages[lightboxIndex].filename].url}
@@ -85,21 +89,26 @@ const ImagesPage = path => {
           animationOnKeyInput
         />
       )}
+
       <p className="text-center pb-2">
-        See more on our Instagram:{" "}
+        See tons more photos on our <FontAwesomeIcon icon={faInstagram} />{" "}
+        Instagram:{" "}
         <a
           href="https://instagram.com/serenitythevan"
           target="_blank"
           rel="noreferrer"
+          style={{ color: "deepskyblue", textDecoration: "underline" }}
         >
-          <FontAwesomeIcon icon={faInstagram} /> serenitythevan
+          @serenitythevan
         </a>
       </p>
 
+      <h2 className="text-center">Video Tour</h2>
+      <TourVideo />
+
+      <h2 className="pt-4 text-center">Photo Tour</h2>
       <div className="d-flex flex-wrap justify-content-around">
         {orderedImages.map(({ filename, caption }, index) => {
-          // 2 - the front of the van.jpeg
-
           if (!imageByFilename[filename]) {
             throw new Error(`${filename} not found in orderedImages!`);
           }

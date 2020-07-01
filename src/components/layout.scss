@@ -1,3 +1,4 @@
+// any modifications have to go before the bootstrap import
 $theme-colors: (
   "warning": #fffd88
 );
@@ -57,5 +58,19 @@ ul {
   .gatsby-resp-image-wrapper {
     margin: 20px 0;
     border: 1px solid black;
+  }
+
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }

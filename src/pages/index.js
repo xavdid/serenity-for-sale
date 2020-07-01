@@ -6,6 +6,7 @@ import Img from "gatsby-image";
 import Layout from "../components/layout";
 import Speclist from "../components/speclist";
 import Button from "../components/button";
+import TourVideo from "../components/tourVideo";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -101,7 +102,14 @@ const IndexPage = () => {
         <Link to="/contact">get in touch</Link> if you’re interested in buying!
       </Block>
 
-      <div className="row" style={{ paddingBottom: "20px" }}>
+      <h2>Take a Tour</h2>
+
+      <TourVideo />
+
+      <div
+        className="row"
+        style={{ paddingBottom: "20px", paddingTop: "30px" }}
+      >
         <div className="col-md">
           <Speclist
             heading="Features"

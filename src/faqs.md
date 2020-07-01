@@ -71,9 +71,15 @@ The vehicle itself, plus lots of gear specifically selected for use on the open 
 
 ### I want to come see the van!
 
-Due to the pandemic, all initial showings will be done over Zoom or Facetime. We'll also be having an "open house" on DATE.
+Awesome! We've got a great video right here:
 
-Once you get serious about purchasing the van, we can organize an in-person showing/test drive here in the SF Bay Area.
+<div class="video-responsive">
+  <iframe width="800" height="434" src="https://www.youtube-nocookie.com/embed/SZwvpe5Ye0s?rel=0&amp;showinfo=0&amp;start=848" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+We're also available [via email](/contact) for questions or virtual showings over Zoom or FaceTime if the above doesn't cover it.
+
+If you're serious about purchasing the van, we can organize an in-person showing/test drive here in the SF Bay Area. We want to accommodate you the best we can (within the safety of the pandemic), so let us know what you need.
 
 ---
 

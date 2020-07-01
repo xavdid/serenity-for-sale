@@ -49,7 +49,7 @@ const NavButton = ({ to, label, classes = [] }) => (
 
 const buttons = [
   { to: "", label: "Home" },
-  { to: "photos", label: "Pictures" },
+  { label: "Tour" },
   { label: "FAQ" },
   { label: "Contact" }
 ];

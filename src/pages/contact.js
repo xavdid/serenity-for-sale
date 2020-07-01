@@ -5,7 +5,7 @@ import ContactButton from "../components/contactButton";
 export default () => (
   <Layout title="Contact">
     <ul style={{ listStyle: "circle" }}>
-      <li>Have a quesiton? </li>
+      <li>Have a quesiton?</li>
       <li>Want to schedule a (virtual) showing?</li>
       <li>Just want to say hi?</li>
     </ul>
