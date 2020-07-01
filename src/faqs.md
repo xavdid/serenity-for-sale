@@ -42,6 +42,67 @@ We also added a microwave to our van kit -- it’s just ten inches tall, so it f
 
 ---
 
+## Lifestyle
+
+### How easy is stealth camping?
+
+Incredibly easy. There are blackout curtains for every window and a ton of sound dampening. We've tested Netflix at full volume with the window open and you can't hear it at all until you're a foot from the window. It's pretty spectacular.
+
+The van itself is white and generic, so you don't stick out on a residential street (where we spent most of our time).
+
+---
+
+### What are the other parking options?
+
+When we weren't stealth camping in cities we were either at state/local campgrounds or [Harvest Hosts](https://harvesthosts.com/about).
+
+Campgrounds are great because they've got all the amenities a traveler needs: water, dump stations, peace & quiet.
+
+Harvest hosts is a paid membership program that allows travelers to stay at wineries, breweries, and farms all across North America. These are typically super pretty and welcoming, definitely an upgrade from Wal-Mart.
+
+---
+
+### Why is this the perfect van for digital nomads?
+
+Absolutely!
+
+The van was built to support 2 people working full-time as they travel, which is exactly how we used it. While we didn't spring for wifi in the van, the previous owners did. They used a monthly plan through [Unlimitedville](https://unlimitedville.com/) and they loved it.
+
+Some features that make this awesome for the digital nomad life:
+
+- Large table with comfortable seating big enough to handle 2 laptops plus keyboards and dongles
+- Standing desk option with movable arms for a monitor and laptop holder (both included with van)
+- WeBoost 4G-X package to boost your reception wherever you go
+- Swivel Seat (for when you're working near the ocean)
+- Ample solar to power all your devices + charge the battery during the workday.
+
+[🔝 back to top](#toc)
+
+---
+
+### I am VERY outdoorsy / I am NOT very outdoorsy - Can the van camp AND glamp?
+
+Absolutely. The van was built with 2 very different people in mind (both of us live in here!)
+
+The Promaster itself is a great van owned by many very outdoorsy people (Alex Honnold has one). This one specifically is built to be comfortable, secure and safe. It's perfect for for all sorts of outdoorsy ventures:
+
+- the bathroom doubles as a wet room for wet suits, hiking boots, boards, equipment, etc.
+- the floor (see [flooring question](#whats-the-floor-made-out-of)) was invested in so it could take a beating and stay beautiful and VERY easy to clean.
+- There is enough storage for all sorts of fun toys and has the power needed to boondock!
+- Both sliding and back doors come with custom fitted nets/screens to make sure you can enjoy nature (minus the bugs)
+
+But what if you just aren't about boondocking or being out of society? Fear not. Go ahead and RSVP YES for that camping trip because you now have a glamping home on wheels! This van is also impeccable for glamping, city living and all matters of non-outdoorsy adventures. It fits in well in any city (we've parked it in Chicago without issue) in a standard parking spot so you can eat out to your foodie's heart content with your home nearby! There is all the power you need to Netflix & Chill on the comfy bed (we didn't spend all that money on a WeBoost for nothing!) in a comfortable temperature. Love to shop? There's plenty of storage for that too.
+
+### We have a dog/cat/pet - is this the right setup for them?
+
+YES! The van was built with a pet in mind.
+
+Pet-friendly features:
+
+- **Maxx Air Fan** with temperature monitor (the fan can be set to automatically switch on if the temperature gets too hot/off if it gets too cold).
+- **Good insulation & air circulation** - The van's been parked in direct sunlight before and the combo of insulation + fan + open RV window + window covers + curtains made it so it was no more than 5 degrees F hotter than the outside.
+- **Canary Security Camera** - the Canary Flex (which is what is installed in the van) - means you can check on your pet and van anytime, right on your phone. Just install the app and you can have peace of mind as well as alerts if their is strange movement/sound coming from your tiny home. You can also talk to your pet through the camera if you catch them up to no good! (Requires constant WiFi - previous owners used [Unlimitedville](https://unlimitedville.com/) and a [Canary Membership](https://canary.is/membership/))
+
 ## Buying the Van
 
 ### How much are you asking and is it negotiable?
@@ -172,6 +233,9 @@ As of June 30, 2020, the van has 47,119 miles on it, most of which were picked u
 The van has had regular oil changes and tire rotations, as well as all the scheduled warranty inspections. The vehicle itself is still the original, off-the-factory-line parts.
 
 The only major damage we've had was to the plastic on the back of the passenger mirror. It got cracked in the middle of the night while we were asleep. We patched it up well the next morning. It's also a pretty cheap replacement part if you want it done for real (aka without duct tape).
+
+![](./images/faqs/broken.jpeg)
+![](./images/faqs/fixed.jpeg)
 
 ---
 
@@ -361,39 +425,5 @@ The floor is made entirely of high-quality [COREtec Plus 5" Waterproof Vinyl Pla
 It's great for walking around in socks when it's chilly and easy to clean! You'll absolutely feel the difference between this and lower quality flooring.
 
 ![](./images/faqs/vinyl.png)
-
-## Lifestyle
-
-### How easy is stealth camping?
-
-Incredibly easy. There are blackout curtains for every window and a ton of sound dampening. We've tested Netflix at full volume with the window open and you can't hear it at all until you're a foot from the window. It's pretty spectacular.
-
-The van itself is white and generic, so you don't stick out on a residential street (where we spent most of our time).
-
----
-
-### What are the other parking options?
-
-When we weren't stealth camping in cities we were either at state/local campgrounds or [Harvest Hosts](https://harvesthosts.com/about).
-
-Campgrounds are great because they've got all the amenities a traveler needs: water, dump stations, peace & quiet.
-
-Harvest hosts is a paid membership program that allows travelers to stay at wineries, breweries, and farms all across North America. These are typically super pretty and welcoming, definitely an upgrade from Wal-Mart.
-
----
-
-### Why is this the perfect van for digital nomads?
-
-Absolutely!
-
-The van was built to support 2 people working full-time as they travel, which is exactly how we used it. While we didn't spring for wifi in the van, the previous owners did. They used a monthly plan through [Unlimitedville](https://unlimitedville.com/) and they loved it.
-
-Some features that make this awesome for the digital nomad life:
-
-- Large table with comfortable seating big enough to handle 2 laptops plus keyboards and dongles
-- Standing desk option with movable arms for a monitor and laptop holder (both included with van)
-- WeBoost 4G-X package to boost your reception wherever you go
-- Swivel Seat (for when you're working near the ocean)
-- Ample solar to power all your devices + charge the battery during the workday.
 
 [🔝 back to top](#toc)

@@ -1,20 +1,41 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
-import TourVideo from "../components/tourVideo";
-import Img from "gatsby-image";
+import VideoTour from "../components/tourVideo";
+import PhotoTour from "../components/photoTour";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
-
 // this turned out overly complex
 // basically, images come in as an unsorted array. I want to sort manually here and add a caption, but I need to lookup the filename
-const orderedImages = [
+const ourImages = [
+  {
+    filename: "cooking_park.JPEG",
+    caption: "Cooking up some grilled cheese in Joshua Tree National Park"
+  },
+  { filename: "full_desk.JPG", caption: "Standing Desk, ready to work" },
+  { filename: "full_bed.JPEG", caption: "Nicely made bed! Vicky's favorite" },
+  {
+    filename: "full_bed_with_me.JPG",
+    caption: "Getting some work done on the bed"
+  },
+  { filename: "cooking.JPEG", caption: "Cooking up a storm during a pit stop" },
+  {
+    filename: "full_kitchen.JPEG",
+    caption: "Kitchen sink, ready for some dishes"
+  },
+  { filename: "me_cleaning.JPEG", caption: "Oh look, the dishes" },
+  {
+    filename: "new_cabinets.JPG",
+    caption:
+      "Our new cabinets, built from scratch. They've got soft-close hinges and everything"
+  }
+];
+
+const oldImages = [
   { filename: "ext.jpg", caption: "Van Exterior" },
   { filename: "open_back.jpg", caption: "Doors open in the back" },
   {
@@ -247,7 +268,6 @@ const orderedImages = [
     caption: "Cab with the sun shades up"
   }
 ];
-const numImages = orderedImages.length;
 
 const ImagesPage = path => {
   const data = useStaticQuery(graphql`
@@ -271,49 +291,8 @@ const ImagesPage = path => {
     }
   `);
 
-  // could verify that data.length === orderedImages.filter(!skip)
-  // skipping is probably bad though, would through off other counts
-
-  const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
-  const [lightboxIndex, setLightboxIndex] = useState(0);
-
-  const imageByFilename = data.allFile.edges.reduce(
-    (acc, img) => ({
-      ...acc,
-      [img.node.base]: {
-        // used for the lightbox
-        url: img.node.childImageSharp.fluid.originalImg,
-        // used for the little images
-        fluid: img.node.childImageSharp.fluid
-      }
-    }),
-    {}
-  );
-
-  const nextIndex = () => (lightboxIndex + 1) % numImages;
-  const prevIndex = () => (lightboxIndex + numImages - 1) % numImages;
-
   return (
     <Layout title="Tours" centered>
-      {lightboxIsOpen && (
-        <Lightbox
-          mainSrc={imageByFilename[orderedImages[lightboxIndex].filename].url}
-          imageCaption={orderedImages[lightboxIndex].caption}
-          prevSrc={imageByFilename[orderedImages[prevIndex()].filename].url}
-          onMovePrevRequest={() => {
-            setLightboxIndex(prevIndex());
-          }}
-          nextSrc={imageByFilename[orderedImages[nextIndex()].filename].url}
-          onMoveNextRequest={() => {
-            setLightboxIndex(nextIndex());
-          }}
-          onCloseRequest={() => {
-            setLightboxIsOpen(false);
-          }}
-          animationOnKeyInput
-        />
-      )}
-
       <p className="text-center pb-2">
         See tons more photos on our <FontAwesomeIcon icon={faInstagram} />{" "}
         Instagram:{" "}
@@ -327,42 +306,26 @@ const ImagesPage = path => {
         </a>
       </p>
 
-      <h2 className="text-center">Video Tour</h2>
-      <TourVideo />
+      <h2 className="text-center" style={{ textDecoration: "underline" }}>
+        Video Tour
+      </h2>
+      <VideoTour />
 
-      <h2 className="pt-4 text-center">Photo Tour</h2>
+      <h2 className="pt-4 text-center" style={{ textDecoration: "underline" }}>
+        Photo Tour
+      </h2>
+      <p className="text-center">Click a photo to enlarge!</p>
+
+      <h3 className="pt-3 text-center">Current Photos</h3>
+      <PhotoTour images={data} order={ourImages} />
+
+      <h3 className="pt-3 text-center">Older Photos</h3>
       <p className="text-center">
         These pictures were taken by the previous owners during the build. We
         included them because they gave a good representation of what the van
         looks like empty.
       </p>
-      <p className="text-center">Click a photo to enlarge!</p>
-      <div className="d-flex flex-wrap justify-content-around">
-        {orderedImages.map(({ filename, caption }, index) => {
-          if (!imageByFilename[filename]) {
-            throw new Error(`${filename} not found in orderedImages!`);
-          }
-
-          return (
-            // have a special break picture to show old vs new?
-            <div
-              key={filename}
-              style={{ width: "235px" }}
-              onClick={() => {
-                setLightboxIndex(index);
-                setLightboxIsOpen(true);
-              }}
-            >
-              <Img
-                fluid={imageByFilename[filename].fluid}
-                alt={caption}
-                style={{ border: "1px solid grey", cursor: "pointer" }}
-              />
-              <p className="text-center">{caption}</p>
-            </div>
-          );
-        })}
-      </div>
+      <PhotoTour images={data} order={oldImages} />
     </Layout>
   );
 };
