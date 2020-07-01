@@ -155,7 +155,9 @@ The van is a Dodge ProMaster 2017
 
 ### How many miles are on the van?
 
-As of July 1, 2020, the van has X miles on it, most of which were picked up on the interstates. We've spent most of our time in cities, plus a bit of time camping.
+As of June 30, 2020, the van has 47,119 miles on it, most of which were picked up on the interstates. We've spent most of our time in cities, plus a bit of time camping. We don't anticipate putting many more miles on it besides drives around the neighborhood to keep it in good working order.
+
+![](./images/faqs/odo.jpg)
 
 ---
 

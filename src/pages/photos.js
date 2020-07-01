@@ -11,6 +11,19 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
+// this turned out overly complex
+// basically, images come in as an unsorted array. I want to sort manually here and add a caption, but I need to lookup the filename
+const orderedImages = [
+  { filename: "front.jpg", caption: "The front" },
+  { filename: "back.jpg", caption: "The back, it's very nice and cool" },
+  {
+    filename: "side.jpg",
+    caption:
+      "This is the side and it's the longest caption here, but that is ok fugeddaboutit"
+  }
+];
+const numImages = orderedImages.length;
+
 const ImagesPage = path => {
   const data = useStaticQuery(graphql`
     query {
@@ -36,29 +49,33 @@ const ImagesPage = path => {
   const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
-  const captionFromImage = image =>
-    image.node.base.split(".")[0].split("-")[1].trim();
+  const imageByFilename = data.allFile.edges.reduce(
+    (acc, img) => ({
+      ...acc,
+      [img.node.base]: {
+        // used for the lightbox
+        url: img.node.childImageSharp.fluid.originalImg,
+        // used for the little images
+        fluid: img.node.childImageSharp.fluid
+      }
+    }),
+    {}
+  );
 
-  const imageInfo = data.allFile.edges.map(image => ({
-    url: image.node.childImageSharp.fluid.originalImg,
-    caption: captionFromImage(image)
-  }));
-
-  const nextIndex = () => (lightboxIndex + 1) % imageInfo.length;
-  const prevIndex = () =>
-    (lightboxIndex + imageInfo.length - 1) % imageInfo.length;
+  const nextIndex = () => (lightboxIndex + 1) % numImages;
+  const prevIndex = () => (lightboxIndex + numImages - 1) % numImages;
 
   return (
     <Layout title="Photo Tour" centered>
       {lightboxIsOpen && (
         <Lightbox
-          mainSrc={imageInfo[lightboxIndex].url}
-          imageCaption={imageInfo[lightboxIndex].caption}
-          prevSrc={imageInfo[prevIndex()].url}
+          mainSrc={imageByFilename[orderedImages[lightboxIndex].filename].url}
+          imageCaption={orderedImages[lightboxIndex].caption}
+          prevSrc={imageByFilename[orderedImages[prevIndex()].filename].url}
           onMovePrevRequest={() => {
             setLightboxIndex(prevIndex());
           }}
-          nextSrc={imageInfo[nextIndex()].url}
+          nextSrc={imageByFilename[orderedImages[nextIndex()].filename].url}
           onMoveNextRequest={() => {
             setLightboxIndex(nextIndex());
           }}
@@ -80,13 +97,17 @@ const ImagesPage = path => {
       </p>
 
       <div className="d-flex flex-wrap justify-content-around">
-        {data.allFile.edges.map((image, index) => {
+        {orderedImages.map(({ filename, caption }, index) => {
           // 2 - the front of the van.jpeg
-          const caption = image.node.base.split(".")[0].split("-")[1].trim();
+
+          if (!imageByFilename[filename]) {
+            throw new Error(`${filename} not found in orderedImages!`);
+          }
+
           return (
-            // have a special break picture to show old vs new
+            // have a special break picture to show old vs new?
             <div
-              key={image.node.base}
+              key={filename}
               style={{ width: "235px" }}
               onClick={() => {
                 setLightboxIndex(index);
@@ -94,7 +115,7 @@ const ImagesPage = path => {
               }}
             >
               <Img
-                fluid={image.node.childImageSharp.fluid}
+                fluid={imageByFilename[filename].fluid}
                 alt={caption}
                 style={{ border: "1px solid grey", cursor: "pointer" }}
               />

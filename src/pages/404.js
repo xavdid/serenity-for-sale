@@ -5,9 +5,9 @@ import { Link } from "gatsby";
 
 const NotFoundPage = () => (
   <Layout title="404: Not found">
-    <p>Not all who wander are lost... but you are.</p>
+    <p>Not all who wander are lost... but you could be!</p>
 
-    <Link to="/">Head Home</Link>
+    <Link to="/">Buy the van and hit the road.</Link>
   </Layout>
 );
 

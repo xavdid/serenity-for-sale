@@ -64,7 +64,7 @@ const IndexPage = () => {
 
       <Block>
         Serenity the Van is more than a van -- it’s a home! Our 2017 Dodge Ram
-        Promaster 2500 has just TK miles on it, but we made the most of them.
+        Promaster 2500 has just 47k miles on it, but we made the most of them.
         This is a van for full-time adventurers, whether that’s stealth camping
         in Chicago and New Orleans, setting up chairs and a campfire in
         Shenandoah or Joshua Tree, or boondocking on Lake Michigan or the Snake
@@ -131,7 +131,7 @@ const IndexPage = () => {
             heading="Specs"
             items={[
               "2017 RAM ProMaster 2500",
-              "FIXME miles",
+              "47k miles",
               '159" Wheelbase',
               "High Roof",
               "Gasoline engine, 3.6L",
