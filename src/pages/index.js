@@ -43,7 +43,7 @@ const IndexPage = () => {
   return (
     <Layout
       title="Serenity For Sale"
-      subtitle="A Luxurious Camper Van | $64,500"
+      subtitle="A High-End Camper Van | $64,500"
       centered
     >
       <h3 style={{ textAlign: "center", paddingBottom: "20px" }}>

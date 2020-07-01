@@ -54,26 +54,26 @@ The van itself is white and generic, so you don't stick out on a residential str
 
 ### What are the other parking options?
 
-When we weren't stealth camping in cities we were either at state/local campgrounds or [Harvest Hosts](https://harvesthosts.com/about).
+When we weren't stealth camping in cities or staying on friends’ driveways, we were either at official campgrounds or Harvest Hosts. We didn’t spend a lot of time boondocking, but that’s another good option!
 
-Campgrounds are great because they've got all the amenities a traveler needs: water, dump stations, peace & quiet.
+**Campgrounds** are great because they've got all the amenities a traveler needs: water, dump stations, peace and quiet but with the option for socialization.
 
-Harvest hosts is a paid membership program that allows travelers to stay at wineries, breweries, and farms all across North America. These are typically super pretty and welcoming, definitely an upgrade from Wal-Mart.
+**Harvest Hosts** is a paid membership program that allows travelers to stay at wineries, breweries, and farms all across North America. These are typically super pretty and welcoming, definitely an upgrade from Wal-Mart.
+
+**Boondocking** is staying for free on public land. Generally there are no amenities besides maybe a fire pit, so you have to pack in and pack out all water and waste. That said, there are some fabulously isolated and beautiful free camp sites all across the country.
 
 ---
 
 ### Why is this the perfect van for digital nomads?
 
-Absolutely!
-
-The van was built to support 2 people working full-time as they travel, which is exactly how we used it. While we didn't spring for wifi in the van, the previous owners did. They used a monthly plan through [Unlimitedville](https://unlimitedville.com/) and they loved it.
+The van was built to support 2 people working and traveling full-time, so there was always plenty of space and power to run both our laptops. While we didn't spring for wifi in the van, the previous owners did. They used a monthly plan through [Unlimitedville](https://unlimitedville.com/) and they loved it.
 
 Some features that make this awesome for the digital nomad life:
 
 - Large table with comfortable seating big enough to handle 2 laptops plus keyboards and dongles
 - Standing desk option with movable arms for a monitor and laptop holder (both included with van)
 - WeBoost 4G-X package to boost your reception wherever you go
-- Swivel Seat (for when you're working near the ocean)
+- Swivel seat up front (for when you're working near the ocean or other amazing views)
 - Ample solar to power all your devices + charge the battery during the workday.
 
 [🔝 back to top](#toc)
@@ -84,14 +84,21 @@ Some features that make this awesome for the digital nomad life:
 
 Absolutely. The van was built with 2 very different people in mind (both of us live in here!)
 
-The Promaster itself is a great van owned by many very outdoorsy people (Alex Honnold has one). This one specifically is built to be comfortable, secure and safe. It's perfect for for all sorts of outdoorsy ventures:
+The Promaster itself is a great van owned by many very outdoorsy people (Alex Honnold has one)! This one specifically is built to be comfortable, secure and safe. It's perfect for for all sorts of outdoorsy ventures:
 
 - the bathroom doubles as a wet room for wet suits, hiking boots, boards, equipment, etc.
-- the floor (see [flooring question](#whats-the-floor-made-out-of)) was invested in so it could take a beating and stay beautiful and VERY easy to clean.
-- There is enough storage for all sorts of fun toys and has the power needed to boondock!
-- Both sliding and back doors come with custom fitted nets/screens to make sure you can enjoy nature (minus the bugs)
+- the floor (see [flooring question](#whats-the-floor-made-out-of)) can take a beating and stay beautiful. It’s also VERY easy to clean
+- there is enough storage for all sorts of fun toys -- climbing gear, fishing equipment, photo rigs, drones, you name it
+- you can carry enough power/water to go for a week at a time without refill, if you’re careful
+- both sliding and back doors come with custom fitted nets/screens to make sure you can enjoy nature and a good breeze, minus the bugs
+- if you’re staying in campgrounds, this van fits easily in almost all tent-only sites -- no need to pay the upcharge for RV hookups and extra room
 
-But what if you just aren't about boondocking or being out of society? Fear not. Go ahead and RSVP YES for that camping trip because you now have a glamping home on wheels! This van is also impeccable for glamping, city living and all matters of non-outdoorsy adventures. It fits in well in any city (we've parked it in Chicago without issue) in a standard parking spot so you can eat out to your foodie's heart content with your home nearby! There is all the power you need to Netflix & Chill on the comfy bed (we didn't spend all that money on a WeBoost for nothing!) in a comfortable temperature. Love to shop? There's plenty of storage for that too.
+Not about boondocking? This van is also perfect for glamping, city living and all manner of non-outdoorsy adventures.
+
+- fits in well in any city (we've parked it in the heart of Chicago without issue) in a standard parking spot so you can eat out to your foodie's heart content with your home nearby!
+- all the power you need to Netflix & Chill on the comfy bed (we didn't spend all that money on a WeBoost for nothing!) in a comfortable temperature
+- love to shop? There's plenty of storage for that too.
+- if you’re staying in the ‘burbs visiting friends, you get all the comfort of your own space and your own cozy sheets while still being nearby for late-night board games
 
 ### We have a dog/cat/pet - is this the right setup for them?
 
@@ -101,7 +108,11 @@ Pet-friendly features:
 
 - **Maxx Air Fan** with temperature monitor (the fan can be set to automatically switch on if the temperature gets too hot/off if it gets too cold).
 - **Good insulation & air circulation** - The van's been parked in direct sunlight before and the combo of insulation + fan + open RV window + window covers + curtains made it so it was no more than 5 degrees F hotter than the outside.
-- **Canary Security Camera** - the Canary Flex (which is what is installed in the van) - means you can check on your pet and van anytime, right on your phone. Just install the app and you can have peace of mind as well as alerts if their is strange movement/sound coming from your tiny home. You can also talk to your pet through the camera if you catch them up to no good! (Requires constant WiFi - previous owners used [Unlimitedville](https://unlimitedville.com/) and a [Canary Membership](https://canary.is/membership/))
+- **Canary Security Camera** - the Canary Flex (which is installed in the van) - means you can check on your pet and van anytime, right on your phone. Just install the app and you can have peace of mind as well as alerts if there is strange movement/sound coming from your tiny home. You can also talk to your pet through the camera if you catch them up to no good! (Requires constant WiFi - previous owners used [Unlimitedville](https://unlimitedville.com/) and a [Canary Membership](https://canary.is/membership/))
+
+[🔝 back to top](#toc)
+
+---
 
 ## Buying the Van
 
@@ -117,7 +128,7 @@ We think that price is a pretty sweet value already for all the features this va
 
 The vehicle itself, plus lots of gear specifically selected for use on the open road. This includes:
 
-- Hand-made quilted magnetic window covers for the "house" part of the van
+- Custom quilted magnetic window covers for the "house" part of the van
 - Vehicle-specific sun screens for the windshield and front windows
 - Two top-of-the-line induction cooktops, plus 2 compatible frying pans
 - A remote-ready workstation, including an HD monitor, laptop mount, and double monitor arm (which we also used as a TV for gaming and movies)
@@ -125,7 +136,8 @@ The vehicle itself, plus lots of gear specifically selected for use on the open 
 - Custom-made couch/bed cushions
 - 2 collapsible camping chairs
 - A collapsible electric kettle
-- Equipment for managing and cleaning the composting toilet
+- A top-of-the-line Nature’s Head composting toilet
+- Equipment for managing the composting toilet
 - so much more!
 
 ---
@@ -152,13 +164,13 @@ Yes! We're ready to hand over the keys as soon as the transaction is complete ([
 
 ### Will you deliver the van?
 
-We can deliver it anywhere in the greater SF Bay Area. We have some limited availability to take it farther, but there would be an additional charge for that.
+We can deliver it anywhere in the greater SF Bay Area. We have some limited availability to take it farther, but there would be an additional charge.
 
 ---
 
 ### Do you have financing options? Do you accept trades?
 
-Nope, we will only accept full cash payment for the van. No trades, payment plans, or copious amounts of candy will be considered.
+Nope, we will only accept full cash payment for the van. No trades, payment plans, or enormous piles of candy will be considered.
 
 There are plenty of options for financing out there! We've used [Nerdwallet](https://www.nerdwallet.com/blog/loans/best-car-loans-for-good-fair-and-bad-credit/) before and liked it quite a bit. They can give you a handful of estimates based on a soft credit check.
 
@@ -253,11 +265,11 @@ Yes. It's got an extended Powertrain Warranty, and that's good for 60 months (ex
 
 ### How tall/long is the van? Can you park it anywhere?
 
-The van fits in just about any old regular parking space, and is relatively easy to parallel park. The clearance makes it hit or miss with low clearances structures like drive-thrus and parking garages.
+The van fits in just about any old regular parking space, and is relatively easy to parallel park. The clearance makes it hit-or-miss with low clearances structures like drive-thrus and parking garages.
 
 - Length: 19’ 8” bumper to bumper
 - Width: 6’ 9” (mirrors in), 8’ 10” (mirrors out)
-- Clearance: 9’ 4” (highest point WeBoost & open MaxxAir)
+- Clearance: 9' 4" (highest point with our WeBoost antenna & open MaxxAir fan)
 
 We've parked and driven around Chicago, New Orleans, and Los Angeles without issue.
 
@@ -317,9 +329,9 @@ We store our bedding in the bench underneath the bed when the table is up.
 
 The bed sleeps left-right and measures 66" head-to-toe (across the width of the van) and 48" wide (front-to-back in the van). This is a few inches shy of a "full" mattress and it can fit two average height people. David slept a little bit diagonally and Vicky could sleep whichever direction she wanted.
 
-The table (room enough for 2-4 people, laptops etc.) sits on an easy to use [Springfield Marine Pedestal](https://www.westmarine.com/buy/springfield--12-28-anodized-air-powered-3-stage-table-pedestal--17075045?recordNum=1).
+The table (room enough for 2-5 people, laptops etc.) sits on an easy to use [Springfield Marine Pedestal](https://www.westmarine.com/buy/springfield--12-28-anodized-air-powered-3-stage-table-pedestal--17075045?recordNum=1).
 
-**About the bed cushions**: They are not your basic "oh we cut this up ourselves from a piece of foam off amazon'' foam. They are high density professional quality foam - what that means, is that you can sit on these foam cushions and your butt is not coming close to the wood underneath it and they should last for quite some time.
+**About the bed cushions**: They are not your basic "oh we cut this up ourselves from a piece of foam off amazon'' foam. They are high density professional quality foam -- they’re very comfortable and should last for quite some time.
 
 Is it comfy? Quite! The cushions are firm and we do suggest using a mattress protector/softer foam on top + bed sheets. We're pretty picky about mattresses and we found the bed extremely comfy.
 
@@ -332,8 +344,8 @@ Is it comfy? Quite! The cushions are firm and we do suggest using a mattress pro
 
 The van contains two 7 gallon water containers:
 
-1. The fresh water one can be filled from most water fill stations (we usually used Prima water stations, found all over the country at grocery stores. It costs ~\$3 for 7 gallons of fresh water).
-2. The gray water that collects used water from the sink.
+1. The fresh water tank can be filled from most water fill stations (we usually filled up with friends or used Prima water stations, found all over the country at grocery stores. It costs ~\$3 for 7 gallons of fresh water).
+2. The gray water tank collects used water from the sink.
 
 The water is pumped through the pipes to the sink by an Shurflo electric pump and accumulator.
 
@@ -357,9 +369,9 @@ The house battery charges two ways:
 The house battery supplies power to:
 
 1. 24V distribution panel that powers the lights & fans (w/ 2 USB outlets as well)
-2. a 2000W (6000W surge) AIMS inverter/charger, which power (6!) different 120V wall outlets in the van (2 under the bed, 2 around the standing desk area, and 2 under the sink)
+2. a 2000W (6000W surge) AIMS inverter/charger, which power 6(!) different 120V wall outlets in the van (2 under the bed, 2 around the standing desk area, and 2 under the sink)
 
-The house battery itself is a 24V "DIY Telsa Powerwall" lithium-ion battery (more on that in it's own FAQ). It has a 100 amp capacity (aka 200 amps in the 12V world, or about 2.5kWh of energy). It can safely go from 100% to 0%, so that's a TRUE 100 amps without having to worry about harming the battery.
+The house battery itself is a 24V "DIY Telsa Powerwall" lithium-ion battery (more on that in its own FAQ). It has a 100 amp capacity (aka 200 amps in the 12V world, or about 2.5kWh of energy). It can safely go from 100% to 0%, so that's a TRUE 100 amps without having to worry about harming the battery.
 
 The whole setup is monitored with a [SBMS120](https://electrodacus.com/). This thing is a freaking sweet little piece of technology that's a 2-in-1 charge controller and lithium BMS. It also has cool graphs to display energy in & out, and has tons of options to configure how it charges and balances the battery if you wanna get really geeky with it.
 
@@ -367,7 +379,7 @@ The whole setup is monitored with a [SBMS120](https://electrodacus.com/). This t
 
 ### How is the lighting?
 
-Our lights are 24V LED RGBW strips. They can show any color, plus white. They also have a dimmer, which is great for any time of day. You can control them via both a remote control and a touch panel mounted by th bed.
+Our lights are 24V LED RGBW strips. They can show any color, plus white. They also have a dimmer, which is great for any time of day. You can control them via both a remote control and a touch panel mounted by the bed.
 
 There are two separate "banks" of lights:
 
@@ -376,11 +388,11 @@ There are two separate "banks" of lights:
 
 ---
 
-### I'm not super techy, is the electrical hard to manage?
+### I'm not super techy, is the electrical system hard to manage?
 
 Not at all! The system is pretty dialed in, so you don't have to worry about much of anything. We haven't had to adjust anything in the system for the entire time we've owned the van.
 
-Not only will we show you around some of the basics when you tour the van, we can provide you with an exhaustive detailed video manual for it AND we're going to be available via email or phone to help you troubleshoot anything electrical for as long as you own it!
+Not only will we show you around some of the basics when you tour the van, we can provide you with an exhaustive detailed video manual for it. We’re also willing to help troubleshoot as best we can once the van is yours -- just send us an email!
 
 ---
 
