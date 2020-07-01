@@ -363,6 +363,8 @@ The house battery itself is a 24V "DIY Telsa Powerwall" lithium-ion battery (mor
 
 The whole setup is monitored with a [SBMS120](https://electrodacus.com/). This thing is a freaking sweet little piece of technology that's a 2-in-1 charge controller and lithium BMS. It also has cool graphs to display energy in & out, and has tons of options to configure how it charges and balances the battery if you wanna get really geeky with it.
 
+---
+
 ### How is the lighting?
 
 Our lights are 24V LED RGBW strips. They can show any color, plus white. They also have a dimmer, which is great for any time of day. You can control them via both a remote control and a touch panel mounted by th bed.

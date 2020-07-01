@@ -58,7 +58,7 @@ const IndexPage = () => {
       </Carousel>
 
       <div className="text-center" style={{ paddingBottom: "28px" }}>
-        <Button to="/photos">
+        <Button to="/tour">
           <FontAwesomeIcon icon={faImages} /> More Photos
         </Button>
       </div>
