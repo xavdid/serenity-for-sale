@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Serenity for Sale`,
-    description: `We're selling our beloved van, Serenity. Come check it out!`,
+    description: `We're selling our beloved converted camper van, Serenity. Come check it out!`,
     author: `@xavdid`
   },
   plugins: [

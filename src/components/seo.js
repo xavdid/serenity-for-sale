@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 import favicon from "../images/favicon.ico";
-import ogImg from "../images/carousel/car-1.jpeg";
+import ogImg from "../images/og-img.jpg";
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
