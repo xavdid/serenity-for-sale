@@ -71,7 +71,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: "og:image",
-          content: ogImg
+          content: `https://serenity.forsale${ogImg}`
         },
         {
           property: "og:url",
