@@ -47,7 +47,7 @@ const IndexPage = () => {
       centered
     >
       <h3 style={{ textAlign: "center", paddingBottom: "20px" }}>
-        Status: <span style={{ color: "green" }}>Available</span>
+        Status: <span style={{ color: "green" }}>Sale Pending</span>
       </h3>
       <Carousel style={{ marginBottom: "40px" }}>
         {data.allFile.edges.map(pic => (
