@@ -43,11 +43,11 @@ const IndexPage = () => {
   return (
     <Layout
       title="Serenity For Sale"
-      subtitle="A High-End Camper Van | $64,500"
+      subtitle="A High-End Camper Van"
       centered
     >
       <h3 style={{ textAlign: "center", paddingBottom: "20px" }}>
-        Status: <span style={{ color: "green" }}>Sale Pending</span>
+        Status: <span style={{ color: "green" }}>SOLD</span>
       </h3>
       <Carousel style={{ marginBottom: "40px" }}>
         {data.allFile.edges.map(pic => (
